@@ -1,0 +1,131 @@
+.imagem-carrossel {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 60vh;
+    max-height: 400px;
+}
+
+h1 {
+
+    font-family: 'Pacifico', cursive;
+    color: white;
+
+}
+
+.fonte-padrao {
+
+    font-family: 'Pacifico', cursive;
+
+}
+
+.carousel-caption {
+
+    padding-top: 0;
+
+}
+
+.cor-especial {
+
+    color: darkred!important;
+
+}
+
+.botao-cor-especial {
+
+    background-color: darkred;
+    color: white;
+
+}
+
+.tamanho-card {
+
+    width: 18rem;
+
+}
+
+.borda-cor-especial {
+
+    border-color: darkred;
+
+}
+
+.espaço {
+
+    grid-gap: 60px;
+    justify-content: space-around;
+    padding-bottom: 3%;
+
+}
+
+.tamanho-imagem {
+
+    object-fit: cover;
+    height: 25vh;
+
+}
+
+.alinhamento {
+
+    object-position: 0 79%;
+
+}
+
+#imagem-card {
+
+    object-fit: cover;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+.fonte-footer {
+
+    font-size: 3em;
+
+}
+
+@media (max-width: 789px) {
+
+    .espaço {
+
+        justify-content: center;
+    
+    }
+
+    .tamanho-card {
+
+        width: 15rem;
+    
+    }
+
+    .fonte-footer {
+
+        font-size: 2em;
+    
+    }
+    
+
+}
+
+@media (max-width: 600px) {
+
+    .espaço {
+
+        justify-content: center;
+    
+    }
+
+    .tamanho-card {
+
+        width: 13rem;
+    
+    }
+
+    .fonte-footer {
+
+        font-size: 30px;
+    
+    }
+    
+
+}
